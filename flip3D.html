@@ -4,15 +4,24 @@
 	<script type="text/javascript" src="jquery-css-transform.js"></script>
 	<script type="text/javascript" src="rotate3Di.js"></script>
 
-	<div id="ex4" style="width: 96px; height: 96px; top: 50%;
-  left: 50%; "><p style="width: 72px; height: 72px; background: none repeat scroll 0% 0% rgb(255, 0, 255); margin: 0px; -moz-transform: skewY(0deg) scale(1, 1);"><br>HI!</p></div>
+	<div id="myimg">       
+  		<img id="img" src="#"; alt="image" title="" width="300" height="428">
+ 	</div>
 
 	<script type="text/javascript">
-		function rotate(numberOfRotations, time) {	
+
+		function rotate(imgPath, numberOfRotations, time) {	
+			var img;
+            img=document.getElementById('img');
+			img.src=imgPath;
+
 			for (i=0; i<numberOfRotations; i++)
 			{
+			  $('#img').rotate3Di(360, time);
 			  $('#ex4').rotate3Di(360, time);
+
 			}
+
 		};
 </script>
 		
@@ -20,7 +29,6 @@
 
 <body>
 	
-
 </body>
 
 </html>

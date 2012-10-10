@@ -25,20 +25,6 @@
     //load JavaScript file(using html string) in UIWebView
     //[webView loadHTMLString:@"<script src=\"calc.js\"></script>" baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] resourcePath]]];
     
-    //---load jquery libraries
-    /*NSString *jqueryCDN = @"http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js";
-    NSData *jquery = [NSData dataWithContentsOfURL:[NSURL URLWithString:jqueryCDN]];
-    NSString *jqueryString = [[NSMutableString alloc] initWithData:jquery encoding:NSUTF8StringEncoding];
-    [webView stringByEvaluatingJavaScriptFromString:jqueryString];
-   //---load jquery libraries
-    */
-    //Load html file with JavaScript code
-   /* NSString *filePath = [[NSBundle mainBundle] pathForResource:@"jqueryTest" ofType:@"js" inDirectory:@""];
-    NSData *fileData = [NSData dataWithContentsOfFile:filePath];
-    NSString *jsString = [[NSMutableString alloc] initWithData:fileData encoding:NSUTF8StringEncoding];
-    
-    [webView stringByEvaluatingJavaScriptFromString:jsString];*/
-    
 }
 
 - (void)didReceiveMemoryWarning
@@ -62,7 +48,7 @@
 - (IBAction)buttonPressed:(id)sender {
     
     //Calling JavaScript function embbedded in the webView (previously html loaded)
-    NSString *function = [[NSString alloc] initWithFormat: @"rotate(10,300)"];
+    NSString *function = [[NSString alloc] initWithFormat: @"rotate('card-front.jpg',10,100)"];
     //NSString *result =
     [self.webView stringByEvaluatingJavaScriptFromString:function];
     //NSLog(@"Area is: %@", result);
