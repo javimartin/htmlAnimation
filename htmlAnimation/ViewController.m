@@ -20,7 +20,7 @@
 - (void)viewDidLoad
 {
     //load html file on UIWebView
-    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"jsTest" ofType:@"html"]isDirectory:NO]]];
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"flip3D" ofType:@"html"]isDirectory:NO]]];
     
     //load JavaScript file(using html string) in UIWebView
     //[webView loadHTMLString:@"<script src=\"calc.js\"></script>" baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] resourcePath]]];
@@ -62,9 +62,10 @@
 - (IBAction)buttonPressed:(id)sender {
     
     //Calling JavaScript function embbedded in the webView (previously html loaded)
-    NSString *function = [[NSString alloc] initWithFormat: @"area(%i)", 10];
-    NSString *result = [self.webView stringByEvaluatingJavaScriptFromString:function];
-    NSLog(@"Area is: %@", result);
+    NSString *function = [[NSString alloc] initWithFormat: @"rotate(10,300)"];
+    //NSString *result =
+    [self.webView stringByEvaluatingJavaScriptFromString:function];
+    //NSLog(@"Area is: %@", result);
 
     // Calling -loadDocument:inView:
     //[self loadDocument:@"image.html" inView:webView];
