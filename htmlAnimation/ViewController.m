@@ -19,10 +19,11 @@
 
 - (void)viewDidLoad
 {
-    
-    //[webView loadHTMLString:@"<script src=\"calc.js\"></script>" baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] resourcePath]]];
-    
+    //load html file on UIWebView
     [webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"jsTest" ofType:@"html"]isDirectory:NO]]];
+    
+    //load JavaScript file(using html string) in UIWebView
+    //[webView loadHTMLString:@"<script src=\"calc.js\"></script>" baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] resourcePath]]];
     
     //---load jquery libraries
     /*NSString *jqueryCDN = @"http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js";
@@ -50,6 +51,7 @@
 
 -(void)loadDocument:(NSString*)documentName inView:(UIWebView*)webView
 {
+    //load document (html) into UIWebView
     NSString *path = [[NSBundle mainBundle] pathForResource:documentName ofType:nil];
     NSURL *url = [NSURL fileURLWithPath:path];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
