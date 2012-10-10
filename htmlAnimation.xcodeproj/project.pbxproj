@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B99B4BA16259C1A00ED712B /* calc.js in Resources */ = {isa = PBXBuildFile; fileRef = 3B99B4B916259C1A00ED712B /* calc.js */; };
 		3BCCB9F916240D5700D5CCF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCCB9F816240D5700D5CCF8 /* UIKit.framework */; };
 		3BCCB9FB16240D5700D5CCF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCCB9FA16240D5700D5CCF8 /* Foundation.framework */; };
 		3BCCB9FD16240D5700D5CCF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCCB9FC16240D5700D5CCF8 /* CoreGraphics.framework */; };
@@ -22,9 +23,15 @@
 		3BCCBA1E1624176F00D5CCF8 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 3BCCBA1C1624176F00D5CCF8 /* style.css */; };
 		3BDD46BC162443350083E637 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD46BB162443350083E637 /* ViewController.xib */; };
 		3BDD46C216246AC60083E637 /* jsTest.html in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD46C116246AC60083E637 /* jsTest.html */; };
+		3BDD46C4162476350083E637 /* progressBar.html in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD46C3162476350083E637 /* progressBar.html */; };
+		3BDD46CA162481C50083E637 /*  jquery-css-transform.js  in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD46C5162481C50083E637 /*  jquery-css-transform.js  */; };
+		3BDD46CC162481C50083E637 /* flip3D.html in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD46C7162481C50083E637 /* flip3D.html */; };
+		3BDD46CD162481C50083E637 /* jquery-1.8.2.js in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD46C8162481C50083E637 /* jquery-1.8.2.js */; };
+		3BDD46CE162481C50083E637 /* rotate3Di.js in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD46C9162481C50083E637 /* rotate3Di.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B99B4B916259C1A00ED712B /* calc.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = calc.js; sourceTree = "<group>"; };
 		3BCCB9F416240D5700D5CCF8 /* htmlAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = htmlAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BCCB9F816240D5700D5CCF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3BCCB9FA16240D5700D5CCF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,8 +51,12 @@
 		3BCCBA1B1624176F00D5CCF8 /* image.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = image.html; path = resources/image.html; sourceTree = "<group>"; };
 		3BCCBA1C1624176F00D5CCF8 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = style.css; path = resources/style.css; sourceTree = "<group>"; };
 		3BDD46BB162443350083E637 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		3BDD46BF162444DC0083E637 /* calc.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = calc.js; path = htmlAnimation/calc.js; sourceTree = "<group>"; };
 		3BDD46C116246AC60083E637 /* jsTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jsTest.html; sourceTree = SOURCE_ROOT; };
+		3BDD46C3162476350083E637 /* progressBar.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = progressBar.html; sourceTree = SOURCE_ROOT; };
+		3BDD46C5162481C50083E637 /*  jquery-css-transform.js  */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = " jquery-css-transform.js "; sourceTree = SOURCE_ROOT; };
+		3BDD46C7162481C50083E637 /* flip3D.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = flip3D.html; sourceTree = SOURCE_ROOT; };
+		3BDD46C8162481C50083E637 /* jquery-1.8.2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.8.2.js"; sourceTree = SOURCE_ROOT; };
+		3BDD46C9162481C50083E637 /* rotate3Di.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rotate3Di.js; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				3BDD46BB162443350083E637 /* ViewController.xib */,
-				3BDD46BF162444DC0083E637 /* calc.js */,
 				3BCCB9FE16240D5700D5CCF8 /* htmlAnimation */,
 				3BCCB9F716240D5700D5CCF8 /* Frameworks */,
 				3BCCB9F516240D5700D5CCF8 /* Products */,
@@ -107,6 +117,12 @@
 		3BCCB9FF16240D5700D5CCF8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3B99B4B916259C1A00ED712B /* calc.js */,
+				3BDD46C5162481C50083E637 /*  jquery-css-transform.js  */,
+				3BDD46C7162481C50083E637 /* flip3D.html */,
+				3BDD46C8162481C50083E637 /* jquery-1.8.2.js */,
+				3BDD46C9162481C50083E637 /* rotate3Di.js */,
+				3BDD46C3162476350083E637 /* progressBar.html */,
 				3BDD46C116246AC60083E637 /* jsTest.html */,
 				3BCCBA1B1624176F00D5CCF8 /* image.html */,
 				3BCCBA1C1624176F00D5CCF8 /* style.css */,
@@ -173,6 +189,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BCCBA0316240D5700D5CCF8 /* InfoPlist.strings in Resources */,
+				3BDD46CD162481C50083E637 /* jquery-1.8.2.js in Resources */,
+				3BDD46CE162481C50083E637 /* rotate3Di.js in Resources */,
+				3B99B4BA16259C1A00ED712B /* calc.js in Resources */,
 				3BCCBA0B16240D5700D5CCF8 /* Default.png in Resources */,
 				3BCCBA0D16240D5700D5CCF8 /* Default@2x.png in Resources */,
 				3BCCBA0F16240D5700D5CCF8 /* Default-568h@2x.png in Resources */,
@@ -181,6 +200,9 @@
 				3BCCBA1E1624176F00D5CCF8 /* style.css in Resources */,
 				3BDD46BC162443350083E637 /* ViewController.xib in Resources */,
 				3BDD46C216246AC60083E637 /* jsTest.html in Resources */,
+				3BDD46C4162476350083E637 /* progressBar.html in Resources */,
+				3BDD46CA162481C50083E637 /*  jquery-css-transform.js  in Resources */,
+				3BDD46CC162481C50083E637 /* flip3D.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,7 +23,7 @@ top: 114px;
 left: 146px;
 }
 
-.dilbert-overlay:hover {
+.dilbert-overlay{
 -webkit-animation: spin 0.7s infinite linear;
 -moz-animation: spin 0.7s infinite linear;
 -o-animation: spin 0.7s infinite linear;
