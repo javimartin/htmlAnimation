@@ -20,7 +20,7 @@
 - (void)viewDidLoad
 {
     //load html file on UIWebView
-    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"flip3D" ofType:@"html"]isDirectory:NO]]];
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"EaselJS/examples/Sparkles" ofType:@"html"]isDirectory:NO]]];
     
     //load JavaScript file(using html string) in UIWebView
     //[webView loadHTMLString:@"<script src=\"calc.js\"></script>" baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] resourcePath]]];

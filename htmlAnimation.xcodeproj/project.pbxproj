@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B026C0D1626D0DC0076B5F6 /* EaselJS in Resources */ = {isa = PBXBuildFile; fileRef = 3B026C0C1626D0DC0076B5F6 /* EaselJS */; };
 		3B99B4BA16259C1A00ED712B /* calc.js in Resources */ = {isa = PBXBuildFile; fileRef = 3B99B4B916259C1A00ED712B /* calc.js */; };
 		3B99B4C21625CB4100ED712B /* card-front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B99B4C11625CB4100ED712B /* card-front.jpg */; };
 		3BCCB9F916240D5700D5CCF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCCB9F816240D5700D5CCF8 /* UIKit.framework */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B026C0C1626D0DC0076B5F6 /* EaselJS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EaselJS; sourceTree = "<group>"; };
 		3B99B4B916259C1A00ED712B /* calc.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = calc.js; sourceTree = "<group>"; };
 		3B99B4C11625CB4100ED712B /* card-front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "card-front.jpg"; sourceTree = SOURCE_ROOT; };
 		3BCCB9F416240D5700D5CCF8 /* htmlAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = htmlAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +80,7 @@
 		3BCCB9E916240D5700D5CCF8 = {
 			isa = PBXGroup;
 			children = (
+				3B026C0C1626D0DC0076B5F6 /* EaselJS */,
 				3BDD46BB162443350083E637 /* ViewController.xib */,
 				3BCCB9FE16240D5700D5CCF8 /* htmlAnimation */,
 				3BCCB9F716240D5700D5CCF8 /* Frameworks */,
@@ -207,6 +210,7 @@
 				3BDD46CA162481C50083E637 /*  jquery-css-transform.js  in Resources */,
 				3BDD46CC162481C50083E637 /* flip3D.html in Resources */,
 				3B99B4C21625CB4100ED712B /* card-front.jpg in Resources */,
+				3B026C0D1626D0DC0076B5F6 /* EaselJS in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
